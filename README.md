@@ -1,6 +1,6 @@
 # EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM AND DISPLAY STRING
-### NAME : DEVA ABISHEK P
-### REG.NO : 212223110008
+### NAME : VINISH RAJ R
+### REG.NO : 212223230243
 
 ## Aim: To Interface a 16X2 LCD display to ARM controller  , and simulate it in Proteus 
 ## Components required: STM32 CUBE IDE, Proteus 8 simulator .
@@ -269,9 +269,9 @@ int main(void)
      Lcd_HandleTypeDef lcd;
      lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
      Lcd_cursor(&lcd, 0,1);
-     Lcd_string(&lcd, "DEVA ABISHeK");
+     Lcd_string(&lcd, "VINISH RAJ R");
      Lcd_cursor(&lcd, 1,1);
-     Lcd_string(&lcd, "212223110008");
+     Lcd_string(&lcd, "212223230243");
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -681,9 +681,9 @@ int main(void)
      Lcd_HandleTypeDef lcd;
      lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
      Lcd_cursor(&lcd, 0,1);
-     Lcd_string(&lcd, "DEVA ABISHeK");
+     Lcd_string(&lcd, "VINISH RAJ R");
      Lcd_cursor(&lcd, 1,1);
-     Lcd_string(&lcd, "212223110008");
+     Lcd_string(&lcd, "212223230243");
   /* USER CODE END 2 */
 
   /* Infinite loop */
